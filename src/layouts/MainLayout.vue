@@ -80,7 +80,6 @@ export default defineComponent({
   },
   mounted() {
     this.$store.dispatch("address/GET_ADDRESSES");
-    this.$store.commit('address/SET_PLATFORM', this.$q.platform.is.desktop)
   },
 
   setup() {

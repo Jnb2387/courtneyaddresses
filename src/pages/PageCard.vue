@@ -92,7 +92,6 @@ export default {
           field: (row) => row.properties.Address,
           sortable: true,
         },
-        // { name: "carbs", label: "Carbs (g)", field: "carbs" },
       ],
     };
   },
